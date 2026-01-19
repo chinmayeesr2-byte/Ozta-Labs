@@ -1,0 +1,154 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  color: #111;
+}
+
+/* GLOBAL CONTAINER */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 56px 20px;
+}
+
+/* HEADINGS */
+h1 {
+  font-size: 44px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 32px 0 10px; /* tighter */
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px; /* important */
+  max-width: 620px;
+}
+
+
+/* HERO SECTION */
+.hero {
+  min-height: 80vh;
+  background: 
+    linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
+    url("/react.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+/* CAREERS PAGE */
+.careers-page {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(255,255,255,0.94), rgba(255,255,255,0.94)),
+    url("/img.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* TWO COLUMN LAYOUT */
+.careers-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px; /* reduced from 80px */
+} 
+
+.section {
+  padding: 56px 0;
+}
+
+.section-small {
+  padding: 32px 0;
+}
+
+/* CTA SECTION */
+.footer-cta {
+  position: relative;
+  background: #f5f7fb;
+  padding: 48px 0;
+  overflow: hidden;
+}
+
+.footer-cta-content {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 24px;
+}
+
+.footer-cta-content p {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.footer-cta-btn {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer-main {
+  background: #000;
+  color: #fff;
+  padding: 32px 0;
+}
+
+.footer-main-content {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 16px;
+  }
+
+  .careers-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+}
+
