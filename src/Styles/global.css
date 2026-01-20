@@ -20,7 +20,7 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 24px; /* slightly bigger horizontal padding for consistency */
 }
 
 /* =========================
@@ -35,11 +35,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 0; /* medium height */
+  padding: 16px 0; /* standardized navbar height */
 }
 
 .nav-links a {
-  margin-left: 20px;
+  margin-left: 24px; /* standardized spacing */
   text-decoration: none;
   color: #111;
   font-size: 14px;
@@ -51,7 +51,7 @@ body {
 .hero {
   background: linear-gradient(135deg, #6366f1, #8b5cf6);
   color: #ffffff;
-  padding: 80px 0; /* medium vertical space */
+  padding: 64px 0; /* consistent vertical spacing */
   text-align: center;
 }
 
@@ -61,7 +61,7 @@ body {
 }
 
 .hero p {
-  margin: 16px auto 0;
+  margin: 16px auto 24px; /* spacing below h1 and above image */
   max-width: 560px;
   line-height: 1.6;
   color: #e0e7ff;
@@ -76,10 +76,10 @@ body {
    BUTTONS
 ========================= */
 .primary-btn {
-  margin-top: 28px;
+  margin-top: 24px; /* consistent with hero spacing */
   background-color: #000;
   color: #fff;
-  padding: 12px 22px; /* medium padding */
+  padding: 12px 24px; /* standardized padding */
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -89,13 +89,13 @@ body {
    SECTIONS
 ========================= */
 .section {
-  padding: 72px 16px; /* medium spacing */
+  padding: 64px 24px; /* consistent section spacing */
   text-align: center;
 }
 
 .section-desc {
   max-width: 640px;
-  margin: 16px auto 48px;
+  margin: 16px auto 32px; /* top and bottom spacing normalized */
   color: #555;
 }
 
@@ -110,13 +110,13 @@ body {
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px; /* medium gap */
+  gap: 24px; /* consistent gap */
 }
 
 .card {
   background-color: #ffffff;
   border: 1px solid #e5e7eb;
-  padding: 20px;
+  padding: 24px; /* standardized card padding */
   text-align: left;
   border-radius: 8px;
 }
@@ -126,7 +126,7 @@ body {
 ========================= */
 .cta {
   background: linear-gradient(135deg, #f5f7ff, #eef1ff);
-  padding: 80px 16px;
+  padding: 64px 24px; /* consistent vertical spacing */
   text-align: center;
 }
 
@@ -136,13 +136,13 @@ body {
 .footer {
   background-color: #000;
   color: #fff;
-  padding: 48px 0;
+  padding: 48px 24px; /* footer padding */
 }
 
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 32px; /* medium spacing */
+  gap: 32px; /* consistent grid gap */
 }
 
 .footer p {
@@ -150,6 +150,7 @@ body {
   font-size: 14px;
   margin-top: 8px;
 }
+
 
 
 
