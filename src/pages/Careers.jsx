@@ -3,7 +3,7 @@ export default function Careers() {
     <>
       <section className="hero">
         <img
-          src="C:\Users\chinm\OneDrive\Documents\react js\ozta-labs\public\img.png"
+          src="/react.png"
           alt="Team collaboration"
           className="hero-img"
         />
